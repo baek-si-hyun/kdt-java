@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class DoWhileTest {
 	   public static void main(String[] args) {
-	      String message = "1.ºĞ½Ç ½Å°í\n2.Åë½Å»ç ÀÌµ¿\n3.°áÁ¦ ¼ö´Ü º¯°æ\n0.»ó´ã¿ø ¿¬°á";
+	      String message = "1. ë¹¨ê°„ìƒ‰\n2. ë…¸ë€ìƒ‰\n3. ê²€ì€ìƒ‰\n4. í°ìƒ‰";
 	      Scanner sc = new Scanner(System.in);
 	      int choice = 0;
 	      
