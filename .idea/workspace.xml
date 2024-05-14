@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2ea28fc6-5d58-48bd-a6e5-f89f52abc3ff" name="Changes" comment="240503 abstract" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;baek-si-hyun&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/baek-si-hyun/kdt-java.git&quot;,
+    &quot;accountId&quot;: &quot;1d08d13c-2858-4a2d-8b40-9740a80ff193&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2fjYNo2G9APuVVTcSKJUTgUKPYU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="workspace" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="workspace" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="2ea28fc6-5d58-48bd-a6e5-f89f52abc3ff" name="Changes" comment="" />
+      <created>1714315916571</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714315916571</updated>
+      <workItem from="1714315917730" duration="347000" />
+      <workItem from="1714318044623" duration="142000" />
+      <workItem from="1714318223313" duration="182000" />
+      <workItem from="1714347057231" duration="29000" />
+      <workItem from="1714398980361" duration="115000" />
+      <workItem from="1714631089022" duration="638000" />
+      <workItem from="1714636298270" duration="10000" />
+      <workItem from="1714721859880" duration="427000" />
+    </task>
+    <task id="LOCAL-00001" summary="240428 variable">
+      <option name="closed" value="true" />
+      <created>1714316013297</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714316013297</updated>
+    </task>
+    <task id="LOCAL-00002" summary="240428 operator">
+      <option name="closed" value="true" />
+      <created>1714316110289</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714316110289</updated>
+    </task>
+    <task id="LOCAL-00003" summary="240428 controllStatment">
+      <option name="closed" value="true" />
+      <created>1714316192770</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714316192770</updated>
+    </task>
+    <task id="LOCAL-00004" summary="240428 array">
+      <option name="closed" value="true" />
+      <created>1714316239056</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714316239057</updated>
+    </task>
+    <task id="LOCAL-00005" summary="240429 method">
+      <option name="closed" value="true" />
+      <created>1714318075685</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714318075685</updated>
+    </task>
+    <task id="LOCAL-00006" summary="240429 file edit">
+      <option name="closed" value="true" />
+      <created>1714318337753</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714318337753</updated>
+    </task>
+    <task id="LOCAL-00007" summary="240429 class, casting">
+      <option name="closed" value="true" />
+      <created>1714399085486</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714399085486</updated>
+    </task>
+    <task id="LOCAL-00008" summary="240503 inheritance">
+      <option name="closed" value="true" />
+      <created>1714721954346</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714721954346</updated>
+    </task>
+    <task id="LOCAL-00009" summary="240503 lambda">
+      <option name="closed" value="true" />
+      <created>1714721996839</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714721996839</updated>
+    </task>
+    <task id="LOCAL-00010" summary="240503 lambda">
+      <option name="closed" value="true" />
+      <created>1714722031077</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714722031077</updated>
+    </task>
+    <task id="LOCAL-00011" summary="240503 lambda">
+      <option name="closed" value="true" />
+      <created>1714722048013</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714722048013</updated>
+    </task>
+    <task id="LOCAL-00012" summary="240503 interface">
+      <option name="closed" value="true" />
+      <created>1714722081156</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1714722081156</updated>
+    </task>
+    <task id="LOCAL-00013" summary="240503 exception">
+      <option name="closed" value="true" />
+      <created>1714722115987</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1714722115987</updated>
+    </task>
+    <task id="LOCAL-00014" summary="240503 lambda">
+      <option name="closed" value="true" />
+      <created>1714722138919</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1714722138919</updated>
+    </task>
+    <task id="LOCAL-00015" summary="240503 api">
+      <option name="closed" value="true" />
+      <created>1714722159381</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1714722159381</updated>
+    </task>
+    <task id="LOCAL-00016" summary="240503 anonym">
+      <option name="closed" value="true" />
+      <created>1714722189596</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1714722189596</updated>
+    </task>
+    <task id="LOCAL-00017" summary="240503 abstract">
+      <option name="closed" value="true" />
+      <created>1714722211557</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1714722211557</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="240428 variable" />
+    <MESSAGE value="240428 operator" />
+    <MESSAGE value="240428 controllStatment" />
+    <MESSAGE value="240428 array" />
+    <MESSAGE value="240429 method" />
+    <MESSAGE value="240429 file edit" />
+    <MESSAGE value="240429 class, casting" />
+    <MESSAGE value="240503 inheritance" />
+    <MESSAGE value="240503 interface" />
+    <MESSAGE value="240503 exception" />
+    <MESSAGE value="240503 lambda" />
+    <MESSAGE value="240503 api" />
+    <MESSAGE value="240503 anonymous" />
+    <MESSAGE value="240503 abstract" />
+    <option name="LAST_COMMIT_MESSAGE" value="240503 abstract" />
+  </component>
+</project>

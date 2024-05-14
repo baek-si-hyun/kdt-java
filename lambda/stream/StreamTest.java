@@ -20,83 +20,83 @@ public class StreamTest {
    public static void main(String[] args) {
       
 //      IntStream
-//      IntStream.range(0, 10)
-//      IntStream.rangeClosed(0, 9)
+      IntStream.range(0, 10)
+      IntStream.rangeClosed(0, 9)
       
 //      forEach()
-//      IntStream.range(0, 10).forEach(num -> {System.out.println(num);});
-//      IntStream.rangeClosed(0, 9).forEach(num -> {System.out.println(num + 1);});
+      IntStream.range(0, 10).forEach(num -> {System.out.println(num);});
+      IntStream.rangeClosed(0, 9).forEach(num -> {System.out.println(num + 1);});
       
-//      ArrayList<Integer> datas = new ArrayList<Integer>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9));
-//      datas.forEach(number -> {System.out.println(number);});
-//      datas.forEach(System.out::println);
+      ArrayList<Integer> datas = new ArrayList<Integer>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9));
+      datas.forEach(number -> {System.out.println(number);});
+      datas.forEach(System.out::println);
       
-//      ArrayList<Integer> datas= new ArrayList<Integer>();
-//      IntStream.rangeClosed(1, 10).forEach(datas::add);
-//      System.out.println(datas);
+      ArrayList<Integer> datas= new ArrayList<Integer>();
+      IntStream.rangeClosed(1, 10).forEach(datas::add);
+      System.out.println(datas);
       
-//      10~1±îÁö ArrayList¿¡ ´ã°í Ãâ·Â
-//      ArrayList<Integer> datas = new ArrayList<Integer>();
-//      IntStream.rangeClosed(0, 9).forEach(data -> {datas.add(10 - data);});
-//      System.out.println(datas);
+//      10~1ê¹Œì§€ ArrayListì— ë‹´ê³  ì¶œë ¥
+      ArrayList<Integer> datas = new ArrayList<Integer>();
+      IntStream.rangeClosed(0, 9).forEach(data -> {datas.add(10 - data);});
+      System.out.println(datas);
       
-//      ÀÎµ¦½º 0ºÎÅÍ 4±îÁö »èÁ¦
-//      IntStream.range(0, 5).forEach(data -> datas.remove(0));
-//      
-//      System.out.println(datas);
+//      ì¸ë±ìŠ¤ 0ë¶€í„° 4ê¹Œì§€ ì‚­ì œ
+      IntStream.range(0, 5).forEach(data -> datas.remove(0));
+
+      System.out.println(datas);
       
-//      chars(): ¹®ÀÚ¿­À» IntStreamÀ¸·Î º¯È¯
-//      String data = "ABC";
-//      data.chars().forEach(System.out::println);
-//      data.chars().forEach(c -> {System.out.println((char)c);});
+//      chars(): ë¬¸ìì—´ì„ IntStreamìœ¼ë¡œ ë³€í™˜
+      String data = "ABC";
+      data.chars().forEach(System.out::println);
+      data.chars().forEach(c -> {System.out.println((char)c);});
       
-//      map(): ±âÁ¸ °ªÀ» ´Ù¸¥ °ªÀ¸·Î º¯°æ
-//      String data = "ABC";
-//      data.chars().map(c -> c + 4).forEach(c -> {System.out.println((char)c);});
+//      map(): ê¸°ì¡´ ê°’ì„ ë‹¤ë¥¸ ê°’ìœ¼ë¡œ ë³€ê²½
+      String data = "ABC";
+      data.chars().map(c -> c + 4).forEach(c -> {System.out.println((char)c);});
       
-//      User user1 = new User(1, "ÇÑµ¿¼®", 20, "°­»ç");
-//      User user2 = new User(2, "È«±æµ¿", 20, "°³¹ßÀÚ");
-//      User user3 = new User(3, "ÀÌ¼ø½Å", 20, "±âÈ¹ÀÚ");
-//      User user4 = new User(4, "±è¼¼È¯", 20, "°­»ç");
-//      User user5 = new User(5, "¼­°æ´ö", 20, "°³¹ßÀÚ");
-//      
-//      ArrayList<User> users = new ArrayList<User>();
-//      
-//      users.add(user1);
-//      users.add(user2);
-//      users.add(user3);
-//      users.add(user4);
-//      users.add(user5);
-//      
-//      users.stream().map(User::getJob).forEach(System.out::println);
-//      users.stream().map(User::getJob).map(job -> "Á÷¾÷: " + job).forEach(System.out::println);
+      User user1 = new User(1, "ê¹€ê°œë˜¥", 20, "ê°œë°œì");
+      User user2 = new User(2, "ì•„ë¬´ê°œ", 20, "ì†Œë°©ê´€");
+      User user3 = new User(3, "ê°•í•´ë¦°", 20, "ê°€ìˆ˜");
+      User user4 = new User(4, "ê¹€ë¯¼ì§€", 20, "ëŒ„ì„œ");
+      User user5 = new User(5, "í•˜ë‹ˆ", 20, "ì—°ì˜ˆì¸");
+
+      ArrayList<User> users = new ArrayList<User>();
+
+      users.add(user1);
+      users.add(user2);
+      users.add(user3);
+      users.add(user4);
+      users.add(user5);
+
+      users.stream().map(User::getJob).forEach(System.out::println);
+      users.stream().map(User::getJob).map(job -> "ï¿½ï¿½ï¿½ï¿½: " + job).forEach(System.out::println);
       
-//      ¾Æ·¡ÀÇ 4°³ URLÀ» List¿¡ ´ãÀº ÈÄ ¸ğµç °æ·Î ¾Õ¿¡ /appÀ» ºÙ¿©ÁØ´Ù.
+//      ì•„ë˜ì˜ 4ê°œ URLì„ Listì— ë‹´ì€ í›„ ëª¨ë“  ê²½ë¡œ ì•ì— /appì„ ë¶™ì—¬ì¤€ë‹¤.
 //      /news, /game, /brand, /ranking
-//      StreamTest streamTest = new StreamTest();
-//      ArrayList<String> urls = new ArrayList<String>(Arrays.asList("/news", "/game", "/brand", "/ranking"));
-//      urls.stream().map(streamTest::addRoot).forEach(url -> System.out.println(url));
+      StreamTest streamTest = new StreamTest();
+      ArrayList<String> urls = new ArrayList<String>(Arrays.asList("/news", "/game", "/brand", "/ranking"));
+      urls.stream().map(streamTest::addRoot).forEach(url -> System.out.println(url));
       
 //      sorted()
-//      ArrayList<Integer> datas = new ArrayList<Integer>(Arrays.asList(1, 6, 3, 2, 7));
-//      datas.stream().sorted().forEach(System.out::print);
-//      System.out.println();
-//      datas.stream().sorted(Collections.reverseOrder()).forEach(System.out::print);
+      ArrayList<Integer> datas = new ArrayList<Integer>(Arrays.asList(1, 6, 3, 2, 7));
+      datas.stream().sorted().forEach(System.out::print);
+      System.out.println();
+      datas.stream().sorted(Collections.reverseOrder()).forEach(System.out::print);
       
-//      collect(): °á°ú¸¦ ´Ù¾çÇÑ Å¸ÀÔÀ¸·Î ¸®ÅÏÇÑ´Ù. - Intstream¿¡¼­´Â »ç¿ëÇÒ ¼ö ¾ø´Ù.
-//      ArrayList<Integer> datas = new ArrayList<Integer>(Arrays.asList(1, 6, 3, 2, 7));
-//      List<Integer> sortedDatas = datas.stream().sorted().collect(Collectors.toList());
-//      System.out.println(sortedDatas);
+//      collect(): ê²°ê³¼ë¥¼ ë‹¤ì–‘í•œ íƒ€ì…ìœ¼ë¡œ ë¦¬í„´í•œë‹¤. - Intstream.
+      ArrayList<Integer> datas = new ArrayList<Integer>(Arrays.asList(1, 6, 3, 2, 7));
+      List<Integer> sortedDatas = datas.stream().sorted().collect(Collectors.toList());
+      System.out.println(sortedDatas);
       
-//      String data = datas.stream().sorted().map(String::valueOf).collect(Collectors.joining(":"));
-//      System.out.println(data);
+      String data = datas.stream().sorted().map(String::valueOf).collect(Collectors.joining(":"));
+      System.out.println(data);
       
-//      filter(): ¸®ÅÏÀÌ trueÀÏ ¶§¿¡¸¸ ´ÙÀ½À¸·Î Àü´Ş
-//      StreamTest streamTest = new StreamTest();
-//      ArrayList<Integer> datas = new ArrayList<Integer>();
-//      IntStream.range(0, 10).filter(data -> data % 2 == 0).forEach(System.out::print);
-//      IntStream.range(0, 10).filter(streamTest::checkOdd).forEach(datas::add);
-//      System.out.println(datas);
+//      filter(): ë¦¬í„´ì´ trueì¼ ë•Œì—ë§Œ ë‹¤ìŒìœ¼ë¡œ ì „ë‹¬
+      StreamTest streamTest = new StreamTest();
+      ArrayList<Integer> datas = new ArrayList<Integer>();
+      IntStream.range(0, 10).filter(data -> data % 2 == 0).forEach(System.out::print);
+      IntStream.range(0, 10).filter(streamTest::checkOdd).forEach(datas::add);
+      System.out.println(datas);
    }
 }
 

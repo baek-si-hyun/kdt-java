@@ -3,6 +3,6 @@ public class Animation extends Video{
 	public Animation() {;}
 	
 	void showSubtitle() {
-		System.out.println("에니메이션");
+		System.out.println("애니메이션");
 	}
 }
